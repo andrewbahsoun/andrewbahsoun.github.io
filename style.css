@@ -1,7 +1,33 @@
 body {
     background-color: #ddc3a5;
+    font-family: "Roboto";
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+}
+header {
+    text-align: center;
 }
 
 p {
     color: #201e20;
+    font-family: "Roboto";
+
+}
+h1 {
+    color: #201e20;
+    font-family: "Roboto";
+
+}
+h2 {
+    color: #201e20;
+    font-family: "Roboto";
+
+}
+h3 {
+    color: #201e20;
+    font-family: "Roboto";
+}
+#visitor {
+    bottom: 0;
 }
