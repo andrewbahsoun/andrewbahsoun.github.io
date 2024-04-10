@@ -1,5 +1,5 @@
 #aboutBody1 {
-    background-color: #ddc3a5;
+    background-color: #000080;
     font-family: "Roboto";
     margin: auto;
     width: 640px; 
@@ -19,41 +19,41 @@ header {
 }
 
 p {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 
 }
 body {
-    background-color: #ddc3a5;
+    background-color: #000080;
     font-family: "Roboto";
     margin: auto;
     width: 640px; 
     padding: 50px;
 }
 h1 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 
 }
 h2 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 
 }
 h3 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 }
 h4 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 }
 h5 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 }
 h6 {
-    color: #201e20;
+    color: #FFFFFF;
     font-family: "Roboto";
 }
 #visitor {
