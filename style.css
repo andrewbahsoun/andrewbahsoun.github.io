@@ -1,11 +1,18 @@
 #aboutBody1 {
-    background-color: #ADD8E6;
+    background-color: #FCFAF0;
     font-family: "Roboto";
     margin: auto;
     width: 640px; 
     padding: 50px;
-}
 
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+
+
+}
 
 #CDA {
     float: left;    
@@ -13,16 +20,27 @@
     padding: 10px;
 }
 
-
 header {
     text-align: center;
+}
+
+#abutton {
+    color: #232324;
+    font-family: "Roboto";
+    
+}
+
+#headerButton {
+    color: #262628;
+    font-family: "Roboto";
 }
 
 p {
     color: #201e20;
     font-family: "Roboto";
-
+    letter-spacing: 0.3px;
 }
+
 body {
     background-color: #ADD8E6;
     font-family: "Roboto";
@@ -30,23 +48,33 @@ body {
     width: 640px; 
     padding: 50px;
 }
-h1 {
+
+#h1-vistor {
     color: #222222;
     font-family: "Roboto";
+    text-transform: uppercase;
+    letter-spacing: 19px;
+    font-size: 40px;
+
 
 }
 h2 {
     color: #222222;
     font-family: "Roboto";
+    text-transform: uppercase;
+    letter-spacing: 1px;
 
 }
 h3 {
     color: #222222;
     font-family: "Roboto";
+    text-transform: uppercase;
+    /*  letter-spacing: 1px; */
 }
 h4 {
     color: #222222;
     font-family: "Roboto";
+    text-transform: uppercase;
 }
 h5 {
     color: #222222;
@@ -58,4 +86,47 @@ h6 {
 }
 #visitor {
     bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 5;
+    font-size: 25px;
+    color: #405f5f;
+    text-align: center;
 }
+
+em {
+    color: #B5B2B0;
+    font-family: "Roboto";
+}
+
+
+button, a.button {
+    font-family: inherit;
+    border: none;
+    outline: 1px dotted rgb(37, 37, 37);
+    outline-offset: -4px;
+    background: hsl(0deg 0% 75%);
+    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+    display: inline-block; /* Important for anchor tags */
+    text-align: center; /* To center text in the link */
+    text-decoration: none; /* To remove underline */
+}
+
+button:active, a.button:active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+  }
