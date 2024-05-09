@@ -87,10 +87,10 @@ h6 {
 #visitor {
     bottom: 0;
     text-transform: uppercase;
-    letter-spacing: 7px;
-    line-height: 5;
+    letter-spacing: 4px;
+    line-height: 1.4;
     font-size: 25px;
-    color: #405f5f;
+    color: #758d9e;
     text-align: center;
 }
 
