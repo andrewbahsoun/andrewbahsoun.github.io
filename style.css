@@ -42,11 +42,11 @@ body {
 }
 
 #h1-vistor {
-    color: #222222;
+    color: #615959;
     font-family: "Roboto";
-    text-transform: uppercase;
-    letter-spacing: 19px;
+    letter-spacing: 2px;
     font-size: 40px;
+    text-align: center;
 
 
 }
@@ -78,12 +78,12 @@ h6 {
 }
 #visitor {
     bottom: 0;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     line-height: 1.4;
-    font-size: 25px;
-    color: #758d9e;
+    font-size: 20px;
+    color: #85929c;
     text-align: center;
+    text-transform: lowercase;
 }
 
 em {
